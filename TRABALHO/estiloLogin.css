@@ -1,0 +1,48 @@
+body{
+    background-color: #e3e3e3;
+  }
+  *{
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+     
+  
+  }
+  
+  .login{
+    border-radius: 10%;
+    background-color: #7b68ee;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .loginUS{
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+    margin-left: 30px;
+    font-size: 12pt;
+  }
+  
+  .logo{
+    text-align:center;
+    margin-top: 80px;
+    font-size: 20pt;
+    font-weight: bold;
+  }
+  h2{
+    margin-bottom: 40px;
+  }
+  a{
+    
+    color: #e3e3e3;
+  }
+  p{
+    margin-top: 10px;
+  }
