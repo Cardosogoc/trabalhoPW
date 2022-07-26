@@ -1,5 +1,5 @@
 body{
-    background-color: #e3e3e3;
+    background-color: whitesmoke;
   }
   *{
       margin: 0;
@@ -14,9 +14,10 @@ body{
   
   .login{
     border-radius: 10%;
-    background-color: #527ece;
+    background-image: linear-gradient(to right,rgb(137, 137, 196), rgb(53, 104, 158));
     text-align: center;
     padding: 30px;
+    margin-top: -30px;
   }
   
   .loginUS{
@@ -31,10 +32,8 @@ body{
     margin-bottom: 1px;
     font-weight: bold;
     padding: 10px;
-    margin-left: 30px;
+    margin-left: 13px;
     font-size: 12pt;
-   
-   
   }
   
   header{
@@ -42,7 +41,14 @@ body{
     margin-top: 80px;
     font-size: 20pt;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-left: 32%;
   }
+  img{
+    width: 150px;
+  }
+
   h2{
     margin-bottom: 40px;
   }
@@ -60,11 +66,23 @@ body{
   }
 
   button{
+    padding: 7px 18px;
+    font-size: 10px;
+    background-color:rgb(53, 104, 158);
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 12pt;
+    margin-bottom: 10px;
+}
+button:hover{
+    background-color: white;
+    color: rgb(53, 104, 158);
+    border: 2px solid rgb(53, 104, 158);
     
-    font-size: 20px;
-    text-transform: 10px;
-    
-  }
+
+}
   input{
     position: relative;
     left: 1px;
