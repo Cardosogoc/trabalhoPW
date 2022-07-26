@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,11 +9,14 @@
     <link rel="stylesheet" href="estilopc.css">
 </head>
 <header>
-    <a href="../login/login.html"><div class="logo">
-        <h1> Farmacia Saúde</h1>
-        <img class="imgLogo" src="../imagens/cruzv-removebg-preview.png" alt="">
-    </div></a>
+    <a href="../login/login.html">
+        <div class="logo">
+            <h1> Farmacia Saúde</h1>
+            <img class="imgLogo" src="../imagens/cruzv-removebg-preview.png" alt="">
+        </div>
+    </a>
 </header>
+
 <body>
     <div class="container">
         <div class="form-title">
@@ -20,79 +24,83 @@
 
         </div>
         <div>
-           
+
             <form>
                 <fieldset>
                     <legend>Dados Pessoais</legend>
-            <div class="esquerda">
-                <label for="nome">Nome</label>
-                <input placeholder="Nome" type="text" id="nome" name="nome"><br>
-    
-                <label for="idade">Idade</label>
-                <input placeholder="Idade" type="number" id="idade" name="idade" ><br>
+                    <div class="esquerda">
+                        <label for="nome">Nome</label>
+                        <input placeholder="Nome" type="text" id="nome" name="nome"><br>
 
-                <label for="sexo">Sexo</label>
-                <input class="sexo" type="radio" name="sexo" id="sexo"  value="masculino" checked>M
-                <input class="sexo" type="radio" name="sexo" id="sexo" value="feminino" >F<br>
+                        <label for="idade">Idade</label>
+                        <input placeholder="Idade" type="number" id="idade" name="idade"><br>
 
-                <label for="cpf">CPF</label>
-                <input placeholder="000.000.000-00" type="text" id="cpf" name="cpf" pattern="^\d{3}.\d{3}.\d{3}-\d{2}$" title="000.000.000-00"><br>
+                        <label for="sexo">Sexo</label>
+                        <input class="sexo" type="radio" name="sexo" id="sexo" value="masculino" checked>M
+                        <input class="sexo" type="radio" name="sexo" id="sexo" value="feminino">F<br>
 
-                <label for="senha">Senha:</label>
-                <input type="password" id="senha" placeholder=""><br>
+                        <label for="cpf">CPF</label>
+                        <input placeholder="000.000.000-00" type="text" id="cpf" name="cpf"
+                            pattern="^\d{3}.\d{3}.\d{3}-\d{2}$" title="000.000.000-00"><br>
 
-                <label for="senha">Confirmar Senha:</label>
-                <input type="password" id="senha" placeholder="">
-                
-            </div>
-            <div class="direita">
-                <label  for="sobrenome">Sobrenome</label>
-                <input placeholder="Sobrenome"  type="text" id="sobrenome" name="sobrenome"><br>
+                        <label for="senha">Senha:</label>
+                        <input type="password" id="senha" placeholder=""><br>
 
-                <label  for="datanasc">Data de Nascimento</label>
-                <input  class="datanasc" type="date" id="datanasc" name="datanasc"><br>
+                        <label for="senha">Confirmar Senha:</label>
+                        <input type="password" id="senha" placeholder="">
 
-                <label for="email">E-mail</label>
-                <input placeholder="email@email.com" type="email" id="email" name="email" ><br>
+                    </div>
+                    <div class="direita">
+                        <label for="sobrenome">Sobrenome</label>
+                        <input placeholder="Sobrenome" type="text" id="sobrenome" name="sobrenome"><br>
 
-                <label for="telefone">Telefone</label>
-                <input  placeholder="(DDD) 99999-9999" type="tel" id="telefone" name="telefone" pattern="^\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$" title="(DDD) 99999-9999"><br>
+                        <label for="datanasc">Data de Nascimento</label>
+                        <input class="datanasc" type="date" id="datanasc" name="datanasc"><br>
 
-            </div>
-        </fieldset>
-        <fieldset>
-                <legend>Endereço</legend>
+                        <label for="email">E-mail</label>
+                        <input placeholder="email@email.com" type="email" id="email" name="email"><br>
 
-                <label for="cep">CEP</label>
-                <input placeholder="Ex: 00000-00" type="text" id="cep" name="cep" pattern="^\d{5}-\d{2}$" title="00000-00">
+                        <label for="telefone">Telefone</label>
+                        <input placeholder="(DDD) 99999-9999" type="tel" id="telefone" name="telefone"
+                            pattern="^\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$" title="(DDD) 99999-9999"><br>
 
-                <label for="longadouro">Longadouro</label>
-                <input placeholder="Ex: Avenida Roraima" type="text" id="longadouro" name="longadouro">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Endereço</legend>
 
-                <label for="complemento">Complemento</label>
-                <input placeholder="Ex: Casa, Apto" type="text" id="complemento" name="complemento">
+                    <label for="cep">CEP</label>
+                    <input placeholder="Ex: 00000-00" type="text" id="cep" name="cep" pattern="^\d{5}-\d{2}$"
+                        title="00000-00">
 
-                <label for="numero">Número</label>
-                <input placeholder="Ex: Nº 201" type="text" id="numero" name="numero">
+                    <label for="longadouro">Longadouro</label>
+                    <input placeholder="Ex: Avenida Roraima" type="text" id="longadouro" name="longadouro">
 
-                <label for="bairro">Bairro</label>
-                <input placeholder="Ex: Camobi" type="text" id="bairro" name="bairro">
+                    <label for="complemento">Complemento</label>
+                    <input placeholder="Ex: Casa, Apto" type="text" id="complemento" name="complemento">
 
-                <label for="estado">Estado</label>
-                <select name="estado">
-                    <option value=""></option>
-                    <option value="RS">RS</option>
-                    <option value="SP">SP</option>
-                    <option value="MG">MG</option>
-                </select>
+                    <label for="numero">Número</label>
+                    <input placeholder="Ex: Nº 201" type="text" id="numero" name="numero">
 
-        </fieldset>
-        <div class="bts">
-                
-                <button formaction="../login/login.html">Cadastrar</button>
+                    <label for="bairro">Bairro</label>
+                    <input placeholder="Ex: Camobi" type="text" id="bairro" name="bairro">
+
+                    <label for="estado">Estado</label>
+                    <select name="estado">
+                        <option value=""></option>
+                        <option value="RS">RS</option>
+                        <option value="SP">SP</option>
+                        <option value="MG">MG</option>
+                    </select>
+
+                </fieldset>
+                <div class="bts">
+
+                    <button formaction="../login/login.html">Cadastrar</button>
+                </div>
+
         </div>
-        
-        </div>
-    </div>        
+    </div>
 </body>
+
 </html>

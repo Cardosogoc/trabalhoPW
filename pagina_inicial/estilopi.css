@@ -42,6 +42,16 @@ li{
     cursor: pointer;
     
 }
+.menu li:hover ul, .menu li.hover ul{
+    display: block;
+}
+
+.submenu{
+    display: none;
+    position: absolute;
+    background-color: gray;
+    padding: 10px 10px;
+}
 
 a{
     text-decoration: none;

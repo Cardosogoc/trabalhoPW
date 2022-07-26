@@ -41,9 +41,9 @@ body{
     margin-top: 80px;
     font-size: 20pt;
     font-weight: bold;
-    display: flex;
-    align-items: center;
-    margin-left: 32%;
+    display: flexbox block;
+    
+    
   }
   img{
     width: 150px;
@@ -86,4 +86,28 @@ button:hover{
   input{
     position: relative;
     left: 1px;
+  }
+
+  @media only screen and (min-width: 600px){
+   
+    .container{
+      margin-top: 40px;
+    }
+    .login{
+      padding: 60px;
+    }
+
+  }
+
+  @media only screen and (max-width: 600px){
+    .container{
+      margin-top: 40px;
+    }
+    .login{
+      padding: 15px;
+    }
+    .loginUS, .loginS{
+      margin-left: 8px;
+    }
+
   }
