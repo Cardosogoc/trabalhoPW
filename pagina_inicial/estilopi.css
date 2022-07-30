@@ -15,6 +15,8 @@ header{
     color: white;
     border: 1px solid black;
     border-bottom: none;
+    width: 100%;
+    max-width: 980px;
 }
 
 .logo{
@@ -42,16 +44,7 @@ li{
     cursor: pointer;
     
 }
-.menu li:hover ul, .menu li.hover ul{
-    display: block;
-}
 
-.submenu{
-    display: none;
-    position: absolute;
-    background-color: gray;
-    padding: 10px 10px;
-}
 
 a{
     text-decoration: none;
@@ -71,7 +64,7 @@ h2{
 
 .farma{
     float: left;
-    width: 600px;
+    width: 50%;
     height: 400px;
     margin: 50px;
 }
@@ -87,6 +80,8 @@ h2{
 .container{
     background-color: white;
     border: 1px solid black;
+    width: 100%;
+    max-width: 980px;
 }
 
 /* FOOTER*/
@@ -98,6 +93,8 @@ footer{
     justify-content: flex-end;
     border: 1px solid black;
     border-top: none;
+    width: 100%;
+    max-width: 980px;
 }
 
 p{  
@@ -114,3 +111,46 @@ p{
 .rodape{
     text-align: left;
 }
+/*RESPOSIVIDADE*/
+@media only screen and (max-width: 400px){
+    li{
+        margin-left: 50px;
+        font-size: 8pt;
+      
+    }
+    .farma{
+       
+        height: 12px;
+        margin: 25px;
+    }
+    .txt{
+        height: 200px;
+        font-size: 10pt;   
+    }
+    .rodape{
+        margin-right: 10%;
+    }
+   
+   
+  }
+
+  @media only screen and (max-width: 600px){
+    li{
+        margin-left: 50px;
+      
+    }
+    .farma{
+       float: none;
+        height: 150px;
+        margin-bottom: -20px;
+        margin-left: 25%;
+    }
+    .txt{
+        margin-top: none;
+        height: 200px;   
+    }
+    .rodape{
+        margin-right: 10%;
+    }
+
+  }
