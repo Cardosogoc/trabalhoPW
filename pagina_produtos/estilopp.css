@@ -144,7 +144,7 @@ button{
 button:hover{
     background-color: white;
     color: rgb(53, 104, 158);
-    border: 2px solid rgb(53, 104, 158);
+    border: 1px solid rgb(53, 104, 158);
 }
 
 /* FOOTER*/
@@ -179,6 +179,38 @@ p{
     position: fixed;
     margin-left: 884px;
     border: 1px solid black;
-    align-items: right;
+    
     background-image:linear-gradient(to right,rgb(137, 137, 196), rgb(53, 104, 158));
 }
+
+/*RESPOSIVIDADE*/
+@media only screen and (max-width: 600px){
+    .p1t{
+        margin-right: 10%;
+        margin-top: 10%;
+        
+    }
+
+    .car{
+        margin-left: 87%;
+    }
+
+
+  }
+@media only screen and (max-width: 486px){
+    .esquerda{
+        float: left;
+    }
+    .direita{
+        float: left;
+        margin-left: 20%;
+    }
+    .car{
+        margin-left: 82%;
+    }
+    
+    
+   
+  }
+
+ 

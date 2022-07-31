@@ -58,7 +58,7 @@ fieldset{
     padding: 20px;
 }
 input, select{
-    width: 200px;
+    width: 202px;
     padding: 10px;
     margin-left: 20px;
     border: 1px solid;
@@ -106,3 +106,20 @@ button:hover{
     color: rgb(53, 104, 158);
     border: 2px solid rgb(53, 104, 158);
 }
+
+
+@media only screen and (max-width: 400px){
+    .direita{
+        float: left;
+    }
+   
+
+  }
+
+  @media only screen and (max-width: 600px){
+    .direita{
+        float: left;
+    }
+    
+
+  }
